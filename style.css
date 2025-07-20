@@ -1,0 +1,596 @@
+/* ------------------------ DESKTOP STYLES ------------------------ */
+body {
+  background: linear-gradient(to bottom, #bfd2e1 0%, #ffffff 50%, #bfd2e1 100%);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.btn-outline-dark:hover {
+  background-color:black !important;
+  color: white !important;
+  border-color: black !important;
+}
+
+
+.lead {
+  font-size: 50px;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #f0f0f0;
+  display: flex;
+  padding: 10px 0px;
+  margin: 0;
+  align-items: center;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  gap: 30px;
+  border: 2px solid #ccc;
+}
+
+.sidebar ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.side-heading {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.side-heading a:hover {
+  color: #8896a2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.heading {
+  font-size: 35px;
+  padding-right: 300px;
+  padding-left: 50px;
+  color: #232629;
+}
+
+.intro-section p {
+  color: black;
+  margin: 0;
+}
+
+.intro-line1 {
+  font-size: 40px;
+  padding: 10px;
+}
+
+.intro-name {
+  font-size: 60px;
+  
+  padding: 10px;
+}
+
+.intro-tagline {
+  font-size: 50px;
+  font-style: italic;
+  padding: 10px;
+}
+
+#right {
+  margin: 30px;
+  padding: 20px 50px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#right p {
+  padding: 10px;
+  margin: 0;
+  color: black;
+  font-size: 50px;
+}
+
+#right strong {
+  color: white;
+}
+
+.icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.details button {
+  border-radius: 20px;
+  margin: 10px;
+  font-size: 15px;
+  border: none;
+  padding: 20px;
+  background-color: #232629;
+  color: white;
+  cursor: pointer;
+}
+
+.details button:hover {
+  background-color: #8896a2;
+}
+
+.about-text {
+  text-align: justify;
+  font-size: 18px;
+  color: black;
+  line-height: 1.6;
+  padding-right: 10px;
+}
+
+.about-right img {
+  border-radius: 55%;
+  border: double;
+  border-color: rgb(81, 78, 78);
+}
+
+.about {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.about-right {
+  display: inline-block;
+  padding-top: 0px;
+  padding-left: 70px;
+}
+
+.about-title,
+.certifications-title {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.about-title h2,
+.certifications-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.about-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: black;
+  padding-left: 20px;
+}
+
+.about-text strong {
+  color: rgb(81, 78, 78);
+}
+
+#certification {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.certificate-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 5px 15px 15px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certificate-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.certifications-title h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.project1_matter {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.project-gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project-gallery a img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ccc;
+  flex-shrink: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-gallery a img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  border-color: #000;
+}
+
+
+.video {
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.project-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.project-video video {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#contact {
+  background: #8896a2;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  min-height: 200px;
+}
+
+#contact h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+
+#certifications p {
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+.heading-certi1 {
+  padding-left: 40px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.github-link {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.github-link a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 2px solid #333;
+  border-radius: 8px;
+}
+
+.github-link a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.github-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* ------------------------ HACKERRANK CERTIFICATION PAGE ------------------------ */
+
+.certificate-section h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.certificate-section h2 span {
+  font-size: 18px;
+  color: white;
+}
+
+.certificate-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.certificate-text {
+  flex: 1 1 400px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.certificate-text ul {
+  padding-left: 20px;
+}
+
+.certificate-text li {
+  margin-bottom: 10px;
+}
+
+.certificate-text strong {
+  color: #232629;
+}
+
+.certificate-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.certificate-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  box-shadow: 4px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------------ MOBILE STYLES ------------------------ */
+@media screen and (max-width: 768px) {
+  .sidebar {
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .sidebar ul {
+    flex-direction: row;
+    gap: 0.01px;
+    font-size: 2px;
+    align-items: center;
+  }
+
+  .heading {
+    padding-left: 2px;
+    padding-right: 1px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .side-heading {
+    gap: 5px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .intro-line1 {
+    font-size: 24px;
+  }
+
+  .intro-name {
+    font-size: 32px;
+  }
+
+  .intro-tagline {
+    font-size: 20px;
+  }
+
+  #profile {
+    flex-direction: column;
+    padding: 40px 10px;
+  }
+
+  #right p {
+    font-size: 30px;
+  }
+
+  .details button {
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .about-right {
+    order: -1;
+  }
+
+  .about-right img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .about-text {
+    max-width: 700px;
+  }
+
+  .about-text p {
+    font-size: 18px;
+    padding: 0 15px;
+    text-align: justify;
+  }
+
+  #certification {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .certificate-box {
+    height: auto;
+    padding: 15px;
+    font-size: 16px;
+  }
+
+  .certifications-title h2 {
+    font-size: 24px;
+  }
+
+  .project-gallery {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .project-gallery a img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .project1_matter {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .video {
+    padding: 10px;
+  }
+
+  #contact {
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  #contact h2 {
+    font-size: 24px;
+  }
+
+  .github-link a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .github-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  #certifications p {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .heading-certi1 {
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .certificate-section {
+    margin: 30px 10px;
+    padding: 15px;
+  }
+
+  .certificate-section h2 {
+    font-size: 22px;
+  }
+
+  .certificate-section h2 span {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  .certificate-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .certificate-text {
+    font-size: 15px;
+  }
+
+  .certificate-image img {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+/* Fix image shape in about section */
+.about-img-circle {
+  border-radius: 50% !important;
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+}
