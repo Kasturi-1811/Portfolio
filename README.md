@@ -1,4 +1,5 @@
-[Live demo] [https://jeevanakasturi-Check out my [Live Demo](https://jeevanakasturi-portfolio.netlify.app/) and 
+[Live Demo](https://jeevanakasturi-portfolio.netlify.app/)
+
 [Video Representation](https://www.linkedin.com/posts/chepuri-jeevana-kasturi-9ab2ab26a_portfolio-careerjourney-professionalgrowth-activity-7352880896867291136-LSxk?utm_source=share&utm_medium=member_android&rcm=ACoAAEHlMdMBEOKYoSC5dENkki-ie03UlnZ2mUg) on LinkedIn.
 
 # Portfolio
